@@ -1,0 +1,1370 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Italic;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red84\green89\blue131;\red31\green33\blue47;\red149\green155\blue194;
+\red185\green122\blue229;\red112\green150\blue255;\red252\green56\blue93;\red121\green213\blue255;\red243\green119\blue89;
+\red184\green230\blue123;\red234\green89\blue101;\red254\green193\blue89;}
+{\*\expandedcolortbl;;\cssrgb\c40392\c43137\c58431;\cssrgb\c16078\c17647\c24314;\cssrgb\c65098\c67451\c80392;
+\cssrgb\c78039\c57255\c91765;\cssrgb\c50980\c66667\c100000;\cssrgb\c100000\c32549\c43922;\cssrgb\c53725\c86667\c100000;\cssrgb\c96863\c54902\c42353;
+\cssrgb\c76471\c90980\c55294;\cssrgb\c94118\c44314\c47059;\cssrgb\c100000\c79608\c41961;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2    Welcome to JS Interation
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2    Down below you will find instructions for code to write.
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2    As you write and save your code, you can look in your terminal where you
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2    ran `yarn test` to see if your code is working. The tests continuously check
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2    your work each time you save. If a test is failing either you have not yet
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2    defined that function or you have not defined it correctly.
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2    Once you finish a function and have it correct, the test will tell you if/how
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2    the next function is working.
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 /**
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 1) Define a function named `yelling` that takes an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * strings as an argument and returns a new array with all
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * the words forced to uppercase
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * Example:
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * const yelling = (array) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *    // your code here
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 yelling\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 words\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  words\cf8 \strokec8 .\cf6 \strokec6 map\cf4 \strokec4 (\cf7 \strokec7 word\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  word\cf8 \strokec8 .\cf6 \strokec6 toUpperCase\cf4 \strokec4 ()\cb1 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /**
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 2) Define a function named `doubleTrouble` that takes an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * numbers as an argument and returns a new array with all
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * the numbers multiplied by 2
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const doubleNumber = doubleNumbers(5)
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 //  const doubleNumbers = (number) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //    return number * 2
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //  \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 doubleTrouble\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 passingArray\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  passingArray\cf8 \strokec8 .\cf6 \strokec6 map\cf4 \strokec4 (\cf7 \strokec7 selectedNum\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  selectedNum \cf5 \strokec5 *\cf4 \strokec4  \cf9 \strokec9 2\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8     
+\f0\i \cf2 \strokec2 //why do we use return twice
+\f1\i0 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 3) Define a function stringyIndexes() that takes an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * strings as an argument and returns a new array with each string
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * suffixed with " is at index X" where X is the index of the element
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 stringyIndexes\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 basicStrings\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 let\cf4 \strokec4  i \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 0\cf4 \cb1 \strokec4 \
+\cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  basicStrings\cf8 \strokec8 .\cf6 \strokec6 map\cf4 \strokec4 (\cf7 \strokec7 newStrings\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  basicStrings[i] \cf5 \strokec5 +\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10  is at index \cf8 \strokec8 '\cf4 \strokec4  \cf5 \strokec5 +\cf4 \strokec4  [i\cf5 \strokec5 ++\cf4 \strokec4 ]\cb1 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 // why does findIndex not work?
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 4) Define a function onlyTheEvenSurvive that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * numbers and returns only the elements that are even
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const onlyTheEvenSurvive = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return numbers.filter(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (number % 2 === 0) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return number
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 onlyTheEvenSurvive\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 allNums\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  allNums\cf8 \strokec8 .\cf6 \strokec6 filter\cf4 \strokec4 (\cf7 \strokec7 evenNums\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  evenNums \cf5 \strokec5 %\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4  \cf5 \strokec5 ===\cf4 \strokec4  \cf9 \strokec9 0\cf4 \cb1 \strokec4 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 5) Define a function onlyTheEvenIndexedSurvive that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * numbers and returns only the elements at indexes that are even
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 onlyTheEvenIndexedSurvive\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 numbers\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  numbers\cf8 \strokec8 .\cf6 \strokec6 filter\cf4 \strokec4 (\cf8 \strokec8 (\cf7 \strokec7 number\cf8 \strokec8 ,\cf4 \strokec4  \cf7 \strokec7 index\cf8 \strokec8 )\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 if
+\f1\i0 \cf4 \strokec4  (index \cf5 \strokec5 %\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4  \cf5 \strokec5 ===\cf4 \strokec4  \cf9 \strokec9 0\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3       
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  number\cb1 \
+\cb3     \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 //find alternate solution
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 6)  Define a function bestMoviesOfTheYear that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * movie objects AND a year and returns the names of movies that are
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * from that year AND have a score more than 90
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * A movie object looks like this:
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *   name: "Get Out",
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *   year: "2017",
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *   score: 99
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 bestMoviesOfTheYear\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf8 \strokec8 (\cf7 \strokec7 movies\cf8 \strokec8 ,\cf4 \strokec4  \cf7 \strokec7 year\cf8 \strokec8 )\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  movies\cb1 \
+\cb3     \cf8 \strokec8 .\cf6 \strokec6 filter\cf4 \strokec4 (\cf7 \strokec7 movie\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3       
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  movie\cf8 \strokec8 .\cf4 \strokec4 year \cf5 \strokec5 ===\cf4 \strokec4  year \cf5 \strokec5 &&\cf4 \strokec4  movie\cf8 \strokec8 .\cf4 \strokec4 score \cf5 \strokec5 >\cf4 \strokec4  \cf9 \strokec9 90\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8       
+\f0\i \cf2 \strokec2 // what is movie
+\f1\i0 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3     \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\cb3     \cf8 \strokec8 .\cf6 \strokec6 map\cf4 \strokec4 (\cf7 \strokec7 movie\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3       
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  movie\cf8 \strokec8 .\cf4 \strokec4 name\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8       
+\f0\i \cf2 \strokec2 // what is movie
+\f1\i0 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3     \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 // const bestMoviesOfTheYear = (movies, year) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   const bestMovies = movies.filter(movie => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return movie.year === year && movie.score > 90
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return bestMovies.map(movie => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return movie.name
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const bestMoviesOfTheYear = (movies, year) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   const bestMovies = movies.filter(movie => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return movie.year === year && movie.score > 90
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return bestMovies.map(movie => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return movie.name
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 7) Define a function everyoneIsOdd that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * numbers and returns true if every element of the array is
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * odd.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const everyoneIsOdd = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   const oddNumbers = numbers.filter(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return number % 2 === 1
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return oddNumbers.length === numbers.length
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const everyoneIsOdd = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return (
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     numbers.filter(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return number % 2 === 1
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}).length === numbers.length
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   )
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 everyoneIsOdd\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 allNums\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  allNums\cf8 \strokec8 .\cf6 \strokec6 every\cf4 \strokec4 (\cf7 \strokec7 oddNums\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  oddNums \cf5 \strokec5 %\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4  \cf5 \strokec5 !==\cf4 \strokec4  \cf9 \strokec9 0\cf4 \cb1 \strokec4 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 8) Define a function findTheNeedle that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * strings and returns the one string that contains the word
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * `needle` inside
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const findTheNeedle = straws => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return straws
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     .filter(straw => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return straw.indexOf('needle') >= 0
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     .reduce(needle => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return needle
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 findTheNeedle\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 string\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  string\cf8 \strokec8 .\cf6 \strokec6 find\cf4 \strokec4 (\cf7 \strokec7 x\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  x\cf8 \strokec8 .\cf6 \strokec6 includes\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 needle\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 9) Define a function findTheNeedleIndex that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * strings and returns the index of the string that contains
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *  the word `needle` inside
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Mark's solution with enumerables (array functions)
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const noIndexOf = straws => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return straws
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     .map((straw, index) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //         value: straw,
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //         index: index
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     .filter(straw => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return straw.value.includes('needle')
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \})[0].index
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Failed
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const findTheNeedleIndex = straws => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return straws
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     .filter(straw => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return straw.indexOf('needle') >= 0
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     .reduce((needle, index) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return index
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Failed
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const findTheNeedleIndex = straws => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   const findTheNeedle = straws.filter((straw, index) => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (straw.indexOf('needle') >= 0) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return index
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Rewrite
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const findTheNeedleIndex = straws => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   straws.forEach(straw => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (straw.includes('needle')) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return straw.indexOf()
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   // return straws.map
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const findTheNeedleIndex = straws => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   for (let i = 0; i < straws.length; i++) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (straws[i].includes('needle')) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return i
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 findTheNeedleIndex\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 array\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  array\cf8 \strokec8 .\cf6 \strokec6 findIndex\cf4 \strokec4 (\cf7 \strokec7 string\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  string\cf8 \strokec8 .\cf6 \strokec6 includes\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 needle\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *` 10)  Define a function someoneToLove that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * strings and returns true if at least one string is exactly
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * four characters long
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const someoneToLove = strings => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return (
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     strings.filter(string => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return string.length == 4
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}).length > 0
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   )
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 someoneToLove\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 passingArray\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 let\cf4 \strokec4  checker \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 false\cf4 \strokec4  
+\f0\i \cf2 \strokec2 //boolean value. needs to be let to switch from false to true
+\f1\i0 \cf4 \cb1 \strokec4 \
+\cb3   passingArray\cf8 \strokec8 .\cf6 \strokec6 forEach\cf4 \strokec4 (\cf7 \strokec7 selectedString\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 if
+\f1\i0 \cf4 \strokec4  (selectedString\cf8 \strokec8 .\cf4 \strokec4 length \cf5 \strokec5 ===\cf4 \strokec4  \cf9 \strokec9 4\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3       checker \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 true\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  checker 
+\f0\i \cf2 \strokec2 //passing boolean value, why dont we need to use boolean in 13?
+\f1\i0 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 11) Define a function mapYourself that accepts an array of
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * numbers and returns a new array where each number is doubled.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * However, you cannot use any of the Array enumerables.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * So no using forEach, map, filter, reduce, etc.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Fails, but it shouldn't, looks identical
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const mapYourself = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return numbers.map(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return number * 2
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Using forEach:
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const mapYourself = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   const myArray = []
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   numbers.forEach(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     myArray.push(number * 2)
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return myArray
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // Using for-loop
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const mapYourself = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   const myArray = []
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   for (let i = 0; i < numbers.length; i++) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     myArray.push(numbers[i] * 2)
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return myArray
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 mapYourself\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 passingArray\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 let\cf4 \strokec4  newArray \cf5 \strokec5 =\cf4 \strokec4  []\cb1 \
+\cb3   
+\f0\i \cf8 \strokec8 for
+\f1\i0 \cf4 \strokec4  (\cf5 \strokec5 let\cf4 \strokec4  i \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ;\cf4 \strokec4  i \cf5 \strokec5 <\cf4 \strokec4  passingArray\cf8 \strokec8 .\cf4 \strokec4 length\cf8 \strokec8 ;\cf4 \strokec4  i\cf5 \strokec5 ++\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     \cf5 \strokec5 let\cf4 \strokec4  newElement \cf5 \strokec5 =\cf4 \strokec4  passingArray[i]\cb1 \
+\cb3     newElement \cf5 \strokec5 =\cf4 \strokec4  newElement \cf5 \strokec5 *\cf4 \strokec4  \cf9 \strokec9 2\cf4 \cb1 \strokec4 \
+\cb3     newArray\cf8 \strokec8 .\cf6 \strokec6 push\cf4 \strokec4 (newElement)\cb1 \
+\cb3   \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  newArray\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 12) Define a function filterYourself that accepts an
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * array of numbers and returns a new array containing
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * only the even numbers.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * However, you cannot use any of the Array enumerables.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * So no using forEach, map, filter, reduce, etc.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 filterYourself\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 numbersArray\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 const\cf4 \strokec4  \cf11 \strokec11 evenArray\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  [] 
+\f0\i \cf2 \strokec2 //why can this be a const
+\f1\i0 \cf4 \cb1 \strokec4 \
+\cb3   
+\f0\i \cf8 \strokec8 for
+\f1\i0 \cf4 \strokec4  (\cf5 \strokec5 let\cf4 \strokec4  i \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ;\cf4 \strokec4  i \cf5 \strokec5 <\cf4 \strokec4  numbersArray\cf8 \strokec8 .\cf4 \strokec4 length\cf8 \strokec8 ;\cf4 \strokec4  i\cf5 \strokec5 ++\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 if
+\f1\i0 \cf4 \strokec4  (numbersArray[i] \cf5 \strokec5 %\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4  \cf5 \strokec5 ===\cf4 \strokec4  \cf9 \strokec9 0\cf4 \strokec4 ) evenArray\cf8 \strokec8 .\cf6 \strokec6 push\cf4 \strokec4 (numbersArray[i])\cb1 \
+\cb3   \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  evenArray\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 // const filterYourself = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return numbers.filter(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (number % 2 === 0) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return number
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \})
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 /*
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * 13) Define a function everyYourself that accepts an
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * array of numbers and returns true if every number
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * in the array is even.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * However, you cannot use any of the Array enumerables.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  *
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * So no using forEach, map, filter, reduce, etc.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 //how to make this logic work?
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //this works more easily if you set checker to always be true,
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // and then set it to false if ANY number is not even.
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const everyYourself = numbersArray => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   let checker = false
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   for (let i = 0; i < numbersArray.length; i++) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (numbersArray[i] % 2 === 0) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       checker = true
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     return checker
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 everyYourself\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf7 \strokec7 numbersArray\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 let\cf4 \strokec4  checker \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 true\cf4 \cb1 \strokec4 \
+\cb3   
+\f0\i \cf8 \strokec8 for
+\f1\i0 \cf4 \strokec4  (\cf5 \strokec5 let\cf4 \strokec4  i \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ;\cf4 \strokec4  i \cf5 \strokec5 <\cf4 \strokec4  numbersArray\cf8 \strokec8 .\cf4 \strokec4 length\cf8 \strokec8 ;\cf4 \strokec4  i\cf5 \strokec5 ++\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     
+\f0\i \cf8 \strokec8 if
+\f1\i0 \cf4 \strokec4  (numbersArray[i] \cf5 \strokec5 %\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4  \cf5 \strokec5 !==\cf4 \strokec4  \cf9 \strokec9 0\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3       checker \cf5 \strokec5 =\cf4 \strokec4  \cf9 \strokec9 false\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   
+\f0\i \cf8 \strokec8 return
+\f1\i0 \cf4 \strokec4  checker\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 // Works
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // const everyYourself = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   for (let i = 0; i < numbers.length; i++) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     if (numbers[i] % 2 !== 0) \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return false
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return true
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 // const everyYourself = numbers => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   return (
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     numbers.filter(number => \{
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //       return number % 2 === 0
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //     \}).length === numbers.length
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 //   )
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 // \}
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2 /**
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  * NOTE: Don't modify anything below this line...
+\f1\i0 \cf4 \cb1 \strokec4 \
+
+\f0\i \cf2 \cb3 \strokec2  */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+
+\f0\i \cf2 \cb3 \strokec2 /* eslint-disable no-undef */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf8 \cb3 \strokec8 import
+\f1\i0 \cf4 \strokec4  test 
+\f0\i \cf8 \strokec8 from
+\f1\i0 \cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 ava\cf8 \strokec8 '\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 \strokec5 const\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf8 \strokec8 (\cf7 \strokec7 t\cf8 \strokec8 ,\cf4 \strokec4  \cf7 \strokec7 method\cf8 \strokec8 )\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   
+\f0\i \cf8 \strokec8 if
+\f1\i0 \cf4 \strokec4  (\cf6 \strokec6 eval\cf4 \strokec4 (\cf8 \strokec8 `\cf10 \strokec10 typeof \cf8 \strokec8 $\{\cf4 \strokec4 method\cf8 \strokec8 \}`\cf4 \strokec4 ) \cf5 \strokec5 !==\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 function\cf8 \strokec8 '\cf4 \strokec4 ) \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     t\cf8 \strokec8 .\cf6 \strokec6 fail\cf4 \strokec4 (\cb1 \
+\cb3       \cf8 \strokec8 `\\n\\n\\n\\n\\n
+\f2 \cf10 \strokec10 \uc0\u9889 \u65039 \u9889 \u65039 \u9889 \u65039 \u9889 \u65039 \u9889 \u65039 
+\f1  The next step is to define the function \cf8 \strokec8 $\{\cf4 \strokec4 method\cf8 \strokec8 \}\cf10 \strokec10  
+\f2 \uc0\u9889 \u65039 \u9889 \u65039 \u9889 \u65039 \u9889 \u65039 \u9889 \u65039 
+\f1 \cf8 \strokec8 \\n\\n\\n`\cf4 \cb1 \strokec4 \
+\cb3     )\cb1 \
+\cb3   \cf8 \strokec8 \}\cf4 \strokec4  
+\f0\i \cf8 \strokec8 else
+\f1\i0 \cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\cb3     t\cf8 \strokec8 .\cf6 \strokec6 pass\cf4 \strokec4 ()\cb1 \
+\cb3   \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - yelling\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 yelling\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 yelling()\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 yelling\cf4 \strokec4 ([\cf8 \strokec8 '\cf10 \strokec10 now\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 is\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 the\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 time\cf8 \strokec8 '\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cb1 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 NOW\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 IS\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 THE\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 TIME\cf8 \strokec8 '\cf4 \cb1 \strokec4 \
+\cb3   ])\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - double tree\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 doubleTrouble\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 doubleTrouble()\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 doubleTrouble\cf4 \strokec4 ([\cf9 \strokec9 2\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 3\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 9\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ,\cf4 \strokec4  \cf5 \strokec5 -\cf9 \strokec9 5\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cf9 \strokec9 4\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 6\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 18\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ,\cf4 \strokec4  \cf5 \strokec5 -\cf9 \strokec9 10\cf4 \strokec4 ])\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - string index\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 stringyIndexes\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 stringyIndexes\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 stringyIndexes\cf4 \strokec4 ([\cf8 \strokec8 '\cf10 \strokec10 how\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 now\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 brown\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 cow\cf8 \strokec8 '\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cb1 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 how is at index 0\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 now is at index 1\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 brown is at index 2\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 cow is at index 3\cf8 \strokec8 '\cf4 \cb1 \strokec4 \
+\cb3   ])\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - only the even survive\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 onlyTheEvenSurvive\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 onlyTheEvenSurvive\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 onlyTheEvenSurvive\cf4 \strokec4 ([\cf9 \strokec9 42\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 50\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 100\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 5\cf8 \strokec8 ,\cf4 \strokec4  \cf5 \strokec5 -\cf9 \strokec9 43\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 17\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 44\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cb1 \
+\cb3     \cf9 \strokec9 42\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3     \cf9 \strokec9 50\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3     \cf9 \strokec9 100\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3     \cf9 \strokec9 44\cf4 \cb1 \strokec4 \
+\cb3   ])\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - only the even index survive\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 onlyTheEvenIndexedSurvive\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 onlyTheEvenIndexedSurvive\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cb1 \
+\cb3     \cf6 \strokec6 onlyTheEvenIndexedSurvive\cf4 \strokec4 ([\cb1 \
+\cb3       \cf9 \strokec9 31\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 67\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 64\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 96\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 14\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 24\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 43\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 51\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 48\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 80\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 58\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 43\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 64\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 84\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 98\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 99\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 69\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 93\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 5\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 32\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 29\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 4\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 28\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 18\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 86\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 22\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 20\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 74\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 35\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 27\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 85\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 79\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 65\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 32\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 56\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 94\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 93\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 20\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 29\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 22\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 72\cf4 \cb1 \strokec4 \
+\cb3     ])\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3     [\cb1 \
+\cb3       \cf9 \strokec9 31\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 64\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 14\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 43\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 48\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 58\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 64\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 98\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 69\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 5\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 29\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 28\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 86\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 20\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 35\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 85\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 65\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 56\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 93\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 29\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3       \cf9 \strokec9 72\cf4 \cb1 \strokec4 \
+\cb3     ]\cb1 \
+\cb3   )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - best movie\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 bestMoviesOfTheYear\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 bestMoviesOfTheYear\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 const\cf4 \strokec4  \cf11 \strokec11 movies\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  [\cb1 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 The Grand Budapest Hotel\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2014\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 91\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 Birdman\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2014\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 91\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 Transformers: Age of Extinction\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2014\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 18\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 Rage\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2014\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 14\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 Get Out\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2017\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 99\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 Justice League\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2017\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 40\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 Ghost in the Shell\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2017\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 46\cf4 \strokec4  \cf8 \strokec8 \},\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 \{\cf4 \strokec4  name\cf8 \strokec8 :\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 The Big Sick\cf8 \strokec8 ',\cf4 \strokec4  year\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 2017\cf8 \strokec8 ,\cf4 \strokec4  score\cf8 \strokec8 :\cf4 \strokec4  \cf9 \strokec9 98\cf4 \strokec4  \cf8 \strokec8 \}\cf4 \cb1 \strokec4 \
+\cb3   ]\cb1 \
+\
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 bestMoviesOfTheYear\cf4 \strokec4 (movies\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2014\cf4 \strokec4 )\cf8 \strokec8 ,\cf4 \strokec4  [\cb1 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 The Grand Budapest Hotel\cf8 \strokec8 ',\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 Birdman\cf8 \strokec8 '\cf4 \cb1 \strokec4 \
+\cb3   ])\cb1 \
+\
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 bestMoviesOfTheYear\cf4 \strokec4 (movies\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2017\cf4 \strokec4 )\cf8 \strokec8 ,\cf4 \strokec4  [\cf8 \strokec8 '\cf10 \strokec10 Get Out\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 The Big Sick\cf8 \strokec8 '\cf4 \strokec4 ])\cb1 \
+\
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 bestMoviesOfTheYear\cf4 \strokec4 (movies\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2001\cf4 \strokec4 )\cf8 \strokec8 ,\cf4 \strokec4  [])\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - every one is odd\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 everyoneIsOdd\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 everyoneIsOdd\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 is\cf4 \strokec4 (\cf6 \strokec6 everyoneIsOdd\cf4 \strokec4 ([\cf9 \strokec9 9\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 15\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 27\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 101\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 33\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 true\cf4 \strokec4 )\cb1 \
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 is\cf4 \strokec4 (\cf6 \strokec6 everyoneIsOdd\cf4 \strokec4 ([\cf9 \strokec9 9\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 23\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 3\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 4\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 77\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 false\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check find the needle\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 findTheNeedle\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 findTheNeedle\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 is\cf4 \strokec4 (\cb1 \
+\cb3     \cf6 \strokec6 findTheNeedle\cf4 \strokec4 ([\cf8 \strokec8 '\cf10 \strokec10 one\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 time\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 there was a needle at\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 the market\cf8 \strokec8 '\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3     \cf8 \strokec8 '\cf10 \strokec10 there was a needle at\cf8 \strokec8 '\cf4 \cb1 \strokec4 \
+\cb3   )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 "\cf10 \strokec10 Function Check - find the needle's index\cf8 \strokec8 ",\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 findTheNeedleIndex\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 findTheNeedleIndex\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 is\cf4 \strokec4 (\cb1 \
+\cb3     \cf6 \strokec6 findTheNeedleIndex\cf4 \strokec4 ([\cf8 \strokec8 '\cf10 \strokec10 one\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 time\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 there was a needle at\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 the market\cf8 \strokec8 '\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \cb1 \strokec4 \
+\cb3     \cf9 \strokec9 2\cf4 \cb1 \strokec4 \
+\cb3   )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - someone to love\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 someoneToLove\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 someoneToLove()\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 is\cf4 \strokec4 (\cf6 \strokec6 someoneToLove\cf4 \strokec4 ([\cf8 \strokec8 '\cf10 \strokec10 how\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 now\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 brown\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 cow\cf8 \strokec8 '\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 false\cf4 \strokec4 )\cb1 \
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 is\cf4 \strokec4 (\cf6 \strokec6 someoneToLove\cf4 \strokec4 ([\cf8 \strokec8 '\cf10 \strokec10 how\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 now\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 blue\cf8 \strokec8 ',\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 cow\cf8 \strokec8 '\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 true\cf4 \strokec4 )\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - map yourself\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 mapYourself\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 mapYourself()\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf5 \strokec5 const\cf4 \strokec4  \cf11 \strokec11 originalMap\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf12 \strokec12 Array\cf8 \strokec8 .\cf4 \strokec4 prototype\cf8 \strokec8 .\cf4 \strokec4 map\cb1 \
+\
+\cb3   \cf12 \strokec12 Array\cf8 \strokec8 .\cf4 \strokec4 prototype\cf8 \strokec8 .\cf6 \strokec6 map\cf4 \strokec4  \cf5 \strokec5 =\cf4 \strokec4  \cf8 \strokec8 ()\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  []\cb1 \
+\
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 mapYourself\cf4 \strokec4 ([\cf9 \strokec9 1\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 3\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cf9 \strokec9 2\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 4\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 6\cf4 \strokec4 ])\cb1 \
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 mapYourself\cf4 \strokec4 ([\cf9 \strokec9 9\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 1\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cf9 \strokec9 18\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 0\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4 ])\cb1 \
+\
+\cb3   \cf12 \strokec12 Array\cf8 \strokec8 .\cf4 \strokec4 prototype\cf8 \strokec8 .\cf4 \strokec4 map \cf5 \strokec5 =\cf4 \strokec4  originalMap\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - filter yourself\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 filterYourself\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 filterYourself()\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8   
+\f0\i \cf2 \strokec2 // const original = Array.prototype.filter
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\cf8 \cb3 \strokec8   
+\f0\i \cf2 \strokec2 // Array.prototype.filter = () => []
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 filterYourself\cf4 \strokec4 ([\cf9 \strokec9 8\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 1\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 3\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  [\cf9 \strokec9 8\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2\cf4 \strokec4 ])\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8   
+\f0\i \cf2 \strokec2 // Array.prototype.filter = original
+\f1\i0 \cf4 \cb1 \strokec4 \
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 Function Check - Every Yourself\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf6 \strokec6 ensureDefined\cf4 \strokec4 (t\cf8 \strokec8 ,\cf4 \strokec4  \cf8 \strokec8 '\cf10 \strokec10 everyYourself\cf8 \strokec8 '\cf4 \strokec4 ))\cb1 \
+\cf6 \cb3 \strokec6 test\cf4 \strokec4 (\cf8 \strokec8 '\cf10 \strokec10 everyYourself()\cf8 \strokec8 ',\cf4 \strokec4  \cf7 \strokec7 t\cf4 \strokec4  \cf5 \strokec5 =>\cf4 \strokec4  \cf8 \strokec8 \{\cf4 \cb1 \strokec4 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8   
+\f0\i \cf2 \strokec2 // const original = Array.prototype.every
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\cf8 \cb3 \strokec8   
+\f0\i \cf2 \strokec2 // Array.prototype.every = () => undefined
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf4 \cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 everyYourself\cf4 \strokec4 ([\cf9 \strokec9 8\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 1\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 2\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 3\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 false\cf4 \strokec4 )\cb1 \
+\cb3   t\cf8 \strokec8 .\cf6 \strokec6 deepEqual\cf4 \strokec4 (\cf6 \strokec6 everyYourself\cf4 \strokec4 ([\cf9 \strokec9 8\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 10\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 22\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 38\cf4 \strokec4 ])\cf8 \strokec8 ,\cf4 \strokec4  \cf9 \strokec9 true\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb3 \strokec8   
+\f0\i \cf2 \strokec2 // Array.prototype.every = original
+\f1\i0 \cf4 \cb1 \strokec4 \
+\cf8 \cb3 \strokec8 \}\cf4 \strokec4 )\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\i \cf2 \cb3 \strokec2 /* eslint-enable */
+\f1\i0 \cf4 \cb1 \strokec4 \
+\
+}

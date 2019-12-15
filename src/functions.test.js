@@ -153,7 +153,7 @@ const someoneToLove = passingArray => {
       checker = true
     }
   })
-  return checker //passing boolean value, why dont we need to use boolean in 13?
+  return checker
 }
 
 /*
