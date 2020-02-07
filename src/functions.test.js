@@ -213,6 +213,33 @@ const everyYourself = numbersArray => {
   return checker
 }
 
+/*
+ * 14) Given an array of integers your solution should find the smallest integer.
+ */
+
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     return Math.min(...args)
+//   }
+// }
+
+
+  const findSmallestInt = args => {
+  
+  var min = args[0];
+  
+  for (var i = 0; i < args.length; i++) {
+  if(args[i]<min)
+  {
+  min = args[i];
+  
+  
+  }
+  }return min;
+  }
+
+
+
 /**
  * NOTE: Don't modify anything below this line...
  */
@@ -429,5 +456,28 @@ test('everyYourself()', t => {
 
   // Array.prototype.every = original
 })
+
+// Test.describe("Smallest Integer Tests", _ => {
+//   Test.it("Fixed Tests", __ => {
+//     var sif = new SmallestIntegerFinder();
+//     Test.assertEquals(sif.findSmallestInt([78,56,232,12,8]),8,'Should return the smallest int 8');
+//     Test.assertEquals(sif.findSmallestInt([78,56,232,12,18]),12,'Should return the smallest int 12');
+//     Test.assertEquals(sif.findSmallestInt([78,56,232,412,228]),56,'Should return the smallest int 56');
+//     Test.assertEquals(sif.findSmallestInt([78,56,232,12,0]),0,'Should return the smallest int 0');
+//     Test.assertEquals(sif.findSmallestInt([1,56,232,12,8]),1,'Should return the smallest int 1');
+//   });
+// });  
+
+
+test("Smallest Integer Tests", t => {
+  // test("Fixed Tests", __ => {
+    // var sif = new SmallestIntegerFinder();
+    t.deepEqual(findSmallestInt([78,56,232,12,8]),8);
+    t.deepEqual(findSmallestInt([78,56,232,12,18]),12);
+    t.deepEqual(findSmallestInt([78,56,232,412,228]),56);
+    t.deepEqual(findSmallestInt([78,56,232,12,0]),0);
+    t.deepEqual(findSmallestInt([1,56,232,12,8]),1);
+  // });
+});  
 
 /* eslint-enable */
